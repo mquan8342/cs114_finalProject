@@ -82,13 +82,13 @@
   + YOLO là một mô hình mạng neural tích chập (CNN) dùng cho việc phát hiện, nhận dạng, phân loại đối tượng. YOLO được tạo ra từ việc kết hợp giữa các lớp phức tạp (convolutional layers) cho phép trích xuất ra các đặc tính của ảnh và lớp kết nối (connected layers) dự đoán ra xác suất xuất hiện và tọa độ của đối tượng.
   + Cách làm viêc của YOLO có thể tóm tắt như sau:
     + Chia bức ảnh thành các Cells. Ví dụ: 13x13, 19x19, …
-    + Mỗi Cell chịu trách nhiệm dự đoán ra b Bounding Box. b = 3, 5, 7, …
+    + Mỗi Cell chịu trách nhiệm dự đoán ra b Bounding Box (b = 3, 5, 7, 9,…)
     + Ouput của việc dự đoán bao gồm:
-      + Tọa độ trung tâm của Bounding Box $(b_x, b_y)$
-      + Chiều rộng của Bounding Box $(b_w)$
-      + Chiều cao của Bounding Box $(b_h)$
-      + Nhãn của đối tượng trong Bounding Box $(c)$
-      + Xác suất có đối tượng trong Bounding Box $(p_c)$
+      + Nhãn của đối tượng trong Bounding Box
+      + Tọa độ trung tâm của Bounding Box
+      + Chiều rộng của Bounding Box
+      + Chiều cao của Bounding Box
+      + Xác suất có đối tượng trong Bounding Box
      
 **4. Đánh giá kết quả:**
 ***Thông tin các video được dùng để so sánh kết quả:***
