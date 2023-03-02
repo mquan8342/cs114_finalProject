@@ -142,6 +142,8 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
   
   + ***Nhận xét:*** Trương Minh Đức không đóng góp nhiều vào việc xây dựng dataset.
 
+---
+
 ## **Tham khảo**
   + Counting Vehicle with High-Precision in Brazilian Roads Using YOLOv3 and Deep SORT - 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI) [1]
   + [YOLOv8](https://github.com/ultralytics/ultralytics/)
