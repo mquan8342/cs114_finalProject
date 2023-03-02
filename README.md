@@ -81,6 +81,7 @@
 **3. Mô tả về thuật toán:** Sử dụng mô hình [YOLOv8](https://github.com/ultralytics/ultralytics) để nhận dạng các phương tiện đang lưu thông, kết hợp với thư viện [ByteTrack](https://github.com/ifzhang/ByteTrack.git) để đếm số lượng phương tiện di chuyển qua một đoạn đường.
      
 **4. Đánh giá kết quả:**
+
 ***Thông tin các video được dùng để so sánh kết quả:***
 | Dataset | Name | Resolution | Ground truth | Description |
 | :-----: | :--: | :--------: | :----------: | :---------: |
