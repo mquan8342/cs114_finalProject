@@ -71,6 +71,8 @@
     + Truck: 182
     + Bus: 394
 
+![example](instance_chart.png)
+
   + Training config:
     + YOLO model image size: 640x640
     + Batch size: 16
@@ -85,7 +87,7 @@
 | GRAM-RTM | M-30 | 480x800 | 77 | Sunny day |
 | GRAM-RTM | M-30-HD | 720x1200 | 42 | Cloudy day |
 
-***Kết quả khi so sánh với Yang et al. , Abdelwahab và Adson M. Santos***
+***Kết quả khi so sánh với model của Yang et al. , Abdelwahab và Adson M. Santos được nhắc đến trong bài báo ở mục tham khảo [1]***
 | Author | Video name | Ground truth | Counted | Precision (%) |
 | :----: | :--------: | :----------: | :-----: | :-----------: |
 | Yang et al. | M-30 | 77 | 71 | 92.21 |
@@ -114,7 +116,7 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
     + Thêm các class mới như xe đạp, xe ba bánh và một số phương tiện ít phổ biến.
     + Thêm chức năng thống kê theo từng class để có thêm thông tin về mật độ lưu thông của các loại phương tiện khác nhau.
 
-**6. Phân công**
+**6. Đóng góp vào đồ án**
   + **Thu thập dữ liệu:**
     + Huỳnh Minh Quân: 9 video (3.31GB), tổng thời lượng 00:39:32
     + Trương Minh Đức: 7 video (380MB, tổng thời lượng 00:27:34
@@ -137,9 +139,13 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
   + **Code:** Huỳnh Minh Quân, Trương Minh Đức
   
   + **Viết báo cáo:** Huỳnh Minh Quân 
+  
+  + ***Nhận xét:*** Trương Minh Đức không đóng góp nhiều vào việc xây dựng dataset.
 
-**7. Tham khảo**
-  + Counting Vehicle with High-Precision in Brazilian Roads Using YOLOv3 and Deep SORT - 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)
+---
+
+## **Tham khảo**
+  + Counting Vehicle with High-Precision in Brazilian Roads Using YOLOv3 and Deep SORT - 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI) [1]
   + [YOLOv8](https://github.com/ultralytics/ultralytics/)
   + [ByteTrack](https://github.com/ifzhang/ByteTrack.git) Multi-Object Tracking by Associating Every Detection Box – ECCV2022
   
