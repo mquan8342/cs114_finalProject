@@ -116,7 +116,7 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
     + Thêm các class mới như xe đạp, xe ba bánh và một số phương tiện ít phổ biến.
     + Thêm chức năng thống kê theo từng class để có thêm thông tin về mật độ lưu thông của các loại phương tiện khác nhau.
 
-**6. Phân công**
+**6. Đóng góp vào đồ án**
   + **Thu thập dữ liệu:**
     + Huỳnh Minh Quân: 9 video (3.31GB), tổng thời lượng 00:39:32
     + Trương Minh Đức: 7 video (380MB, tổng thời lượng 00:27:34
