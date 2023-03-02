@@ -87,7 +87,7 @@
 | GRAM-RTM | M-30 | 480x800 | 77 | Sunny day |
 | GRAM-RTM | M-30-HD | 720x1200 | 42 | Cloudy day |
 
-***Kết quả khi so sánh với Yang et al. , Abdelwahab và Adson M. Santos***
+***Kết quả khi so sánh với model của Yang et al. , Abdelwahab và Adson M. Santos được nhắc đến trong bài báo ở mục tham khảo [1]***
 | Author | Video name | Ground truth | Counted | Precision (%) |
 | :----: | :--------: | :----------: | :-----: | :-----------: |
 | Yang et al. | M-30 | 77 | 71 | 92.21 |
@@ -143,7 +143,7 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
   + ***Nhận xét:*** Trương Minh Đức không đóng góp nhiều vào việc xây dựng dataset.
 
 **7. Tham khảo**
-  + Counting Vehicle with High-Precision in Brazilian Roads Using YOLOv3 and Deep SORT - 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)
+  + Counting Vehicle with High-Precision in Brazilian Roads Using YOLOv3 and Deep SORT - 2020 33rd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI) [1]
   + [YOLOv8](https://github.com/ultralytics/ultralytics/)
   + [ByteTrack](https://github.com/ifzhang/ByteTrack.git) Multi-Object Tracking by Associating Every Detection Box – ECCV2022
   
