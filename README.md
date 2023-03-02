@@ -81,6 +81,7 @@
 **3. Mô tả về thuật toán:** Sử dụng mô hình [YOLOv8](https://github.com/ultralytics/ultralytics) để nhận dạng các phương tiện đang lưu thông, kết hợp với thư viện [ByteTrack](https://github.com/ifzhang/ByteTrack.git) để đếm số lượng phương tiện di chuyển qua một đoạn đường.
      
 **4. Đánh giá kết quả:**
+
 ***Thông tin các video được dùng để so sánh kết quả:***
 | Dataset | Name | Resolution | Ground truth | Description |
 | :-----: | :--: | :--------: | :----------: | :---------: |
@@ -125,16 +126,16 @@ $Precision = (1 - \frac{|Ground truth - Counted|}{Ground truth}) \times 100$
   
   + **Gán nhãn dữ liệu:**
     + Huỳnh Minh Quân: 1027 ảnh
-      + Motorbike:  8062 instance
-      + Car: 3251 instance
-      + Truck: 182 instance
-      + Bus: 374 instance
+      + Motorbike:  8062 instances
+      + Car: 3251 instances
+      + Truck: 182 instances
+      + Bus: 374 instances
       
     + Trương Minh Đức: 65 ảnh
-      + Motorbike:  620 instance
-      + Car: 447 instance
-      + Truck: 0 instance
-      + Bus: 20 instance
+      + Motorbike:  620 instances
+      + Car: 447 instances
+      + Truck: 0 instances
+      + Bus: 20 instances
     
   + **Code:** Huỳnh Minh Quân, Trương Minh Đức
   
