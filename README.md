@@ -70,6 +70,7 @@
     + Car: 3728
     + Truck: 182
     + Bus: 394
+![example](instance_chart.png)
 
   + Training config:
     + YOLO model image size: 640x640
